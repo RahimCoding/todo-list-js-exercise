@@ -33,10 +33,11 @@ function newTask(title, description) {
 
 const task1 = newTask("Clean Cat Litter", "take all the shit out of the litter box"); // task 0
 const task2 = newTask("Do Laundry", ":C"); // task 1
-const tasks = [task1, task2];
+const task3 = newTask("clean dishes", "🍲") //task 2
+const tasks = [task1, task2, task3];
 
-console.log(tasks)
+// console.log(tasks)
 
-task2.logState(); // Clean Cat Litter has not been completed
-task2.markCompleted();
-task2.logState(); // Clean Cat Litter has been completed
+task3.logState(); // Clean Cat Litter has not been completed
+task3.markCompleted();
+task3.logState(); // Clean Cat Litter has been completed
